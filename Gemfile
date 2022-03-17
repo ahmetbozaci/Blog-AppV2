@@ -11,10 +11,10 @@ gem 'sprockets-rails'
 
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 1.1'
-
+gem 'rspec-rails', '~> 4.0.1'
 # Use the Puma web server [https://github.com/puma/puma]
 gem 'puma', '~> 5.0'
-
+gem 'rails-controller-testing'
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
 gem 'importmap-rails'
 
@@ -32,7 +32,7 @@ gem 'jbuilder'
 
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
-
+gem 'net-http'
 # Use Active Model has_secure_password [https://guides.rubyonrails.org/active_model_basics.html#securepassword]
 # gem "bcrypt", "~> 3.1.7"
 
