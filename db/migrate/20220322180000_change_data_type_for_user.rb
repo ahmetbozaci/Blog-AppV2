@@ -1,6 +1,9 @@
 class ChangeDataTypeForUser < ActiveRecord::Migration[7.0]
-  def change
+  def up
     change_column :users, :bio, :text
-    #Ex:- change_column("admin_users", "email", :string, :limit =>25)
+  end
+
+  def down
+    change_column :users, :bio, :string
   end
 end
