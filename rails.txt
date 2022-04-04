@@ -1,0 +1,17 @@
+# Change ruby version
+
+rm .ruby-version
+touch .ruby-version
+echo 3.0.3 > .ruby-version # write your ruby version 
+
+sed '/ruby/d' Gemfile > Gemfile2
+rm Gemfile
+mv Gemfile2 Gemfile
+echo " ruby '3.0.3' " >> Gemfile # write your ruby version 
+
+bundle install
+
+#rm ./config/database.yml
+#rails db:create
+#rails db:migrate
+#rails db:seed

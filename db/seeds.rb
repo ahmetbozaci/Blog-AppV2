@@ -17,6 +17,8 @@ second_user = User.create(name: 'Lilly',
   second_post = Post.create(author: second_user, title: 'Post 2', text: 'This is my second post')
   third_post = Post.create(author: first_user, title: 'Post 3', text: 'This is my third post')
   fourth_post = Post.create(author: second_user, title: 'Post 4', text: 'This is my fourth post')
+  fiveth_post = Post.create(author: first_user, title: 'Post 5', text: 'This is my fiveth post')
+  sixth_post = Post.create(author: first_user, title: 'Post 6', text: 'This is my sixth post')
 
   Comment.create(post: first_post, author: second_user, text: 'Hi Tom!' )
   Comment.create(post: second_post, author: first_user, text: 'Hi Tom!' )
