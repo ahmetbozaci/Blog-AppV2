@@ -1,3 +1,12 @@
-
 <%= render partial: 'users/user', object: @user %>
 <%= render @posts%>
+<div class="border py-2 px-1">
+  <% @user.posts.each do |post| %>
+    <% post.comments.each do |comment| %>
+      <p>
+        <%= comment.author.name%> : 
+        <%= comment.text %>
+      </p> 
+    <% end %>
+  <% end %>
+</div>
