@@ -1,12 +1,10 @@
 <%= render partial: 'users/user', object: @user %>
-<%= render @posts%>
-<div class="border py-2 px-1">
-  <% @user.posts.each do |post| %>
-    <% post.comments.each do |comment| %>
-      <p>
-        <%= comment.author.name%> : 
-        <%= comment.text %>
-      </p> 
-    <% end %>
-  <% end %>
+<% @user.posts.each do |post| %>
+  <%= render post%>
+  <%= render partial: 'shared/comment', collection: post.recent_comments %>
+<% end %>
+
+<div class="text-center my-3">
+  <button>Pagination</button>
 </div>
+ 
