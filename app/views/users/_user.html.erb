@@ -1,0 +1,10 @@
+<%= link_to user_path(user.id) do %>
+  <div class="d-flex m-auto">
+    <img src="<%= user.photo %>" width="200" height="172.44">
+    <div class="border rounded py-4 px-5 ms-5 align-self-center ">
+      <h4 class="ps-1"><%= user.name %></h4>
+      <p class="ps-5 mx-5 mt-5"> Number of posts: <%= user.posts_counter%></p>
+    </div>
+  </div>
+  <br>
+<% end %>
