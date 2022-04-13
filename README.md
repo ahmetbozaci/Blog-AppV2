@@ -7,15 +7,12 @@
 ## Live Demo
 
 
-
 ## Authors
 
 👤 **Ahmet Bozacı**
 - [Github](https://github.com/ahmetbozaci)
 - [Twitter](https://twitter.com/ahmtbozaci)
 - [LinkedIn](https://www.linkedin.com/in/ahmetbozaci/)
-
-
 
 
 ## 🤝 Contributing
@@ -27,7 +24,6 @@ Feel free to check the [issues page](../../issues/).
 ## Show your support
 
 Give a ⭐️ if you like this project!
-
 
 
 ## 📝 License
