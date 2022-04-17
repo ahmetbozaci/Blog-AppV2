@@ -3,7 +3,6 @@
 
 ## Built With
 - Ruby on Rails
-- 
 ## Live Demo
 
 
